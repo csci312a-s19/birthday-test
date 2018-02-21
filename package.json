@@ -1,0 +1,18 @@
+{
+  "name": "birthday-test",
+  "version": "1.0.0",
+  "description": "CS312 birthday testing example",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Michael Linderman <mlinderman@middlebury.edu>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "moment": "^2.20.1"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
