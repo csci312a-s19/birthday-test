@@ -1,13 +1,14 @@
 const isBirthday = require('./birthday');
 
 describe('Checks if today is birthdate', () => {
-  let _Date;
+  let _Date; // eslint-disable-line
   beforeAll(() => {
     _Date = Date; // Save origial date module
   });
 
   afterAll(() => {
-    Date = _Date; // Reset Date
+    // Reset Date
+    Date = _Date; // eslint-disable-line
   });
 
   beforeEach(() => {

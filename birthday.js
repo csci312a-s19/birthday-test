@@ -1,6 +1,6 @@
 const moment = require('moment');
 
-const isBirthday = function (birthday) {
+const isBirthday = function isBirthday(birthday) {
   return moment().isSame(birthday, 'day');
 };
 

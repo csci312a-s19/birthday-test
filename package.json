@@ -4,7 +4,8 @@
   "description": "CS312 birthday testing example",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "Michael Linderman <mlinderman@middlebury.edu>",
@@ -13,6 +14,9 @@
     "moment": "^2.20.1"
   },
   "devDependencies": {
-    "jest": "^22.1.4"
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.1.0"
   }
 }
