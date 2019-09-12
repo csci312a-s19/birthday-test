@@ -9,14 +9,17 @@
   },
   "keywords": [],
   "author": "Michael Linderman <mlinderman@middlebury.edu>",
+  "contributors": [
+    "Christopher Andrews <candrews@middlebury.edu>"
+  ],
   "license": "Apache-2.0",
   "dependencies": {
     "moment": "^2.20.1"
   },
   "devDependencies": {
-    "eslint": "^5.3.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "jest": "^24.1.0"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0"
   }
 }
